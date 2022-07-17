@@ -13,7 +13,6 @@ box-sizing: border-box;
     --primary-pink: hsl(322, 100%, 66%);
     --primary-l-pink: hsl(321, 100%, 78%);
     --primary-l-red: hsl(0, 100%, 63%);
-
     --neutral-vd-cyan: hsl(192, 100%, 9%);
     --neutral-vp-blue: hsl(207, 100%, 98%);
   }
@@ -22,13 +21,11 @@ body{
     max-width: 1440px;
     min-width: 375px;
     width: 100%;
-    /*padding: 25px;*/
 }
 
 h1,h2,h3,h4,h5,h6{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    /*color: var(--neutral-vd-cyan);*/
 }
 
 p,button, ul {
@@ -136,7 +133,7 @@ p,button, ul {
 
 .values{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(375px, max-content));
+    grid-template-columns: repeat(auto-fit, minmax(50%, max-content));
     row-gap: 3rem;
     justify-items: center;
     padding: 4rem;
